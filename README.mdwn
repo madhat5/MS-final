@@ -1,0 +1,72 @@
+## Final
+
+- iterate on assign 1
+
+- expand to include all ethnicities (census?)
+
+- add 
+    - on display vs storage
+    - drop down for specific collection?
+
+- ? add keyword search, and highlight areas with contour highlight?
+
+
+
+## proposal
+
+https://canvas.newschool.edu/courses/1525014/assignments/8278467
+
+Come up with 3 different concepts for an interactive or narrative project for this data set. You can revisit one of the previous assignments and add these dynamic elements to it, or come up with a new idea and concept. This time your sketch can be higher fidelity than a paper sketch.
+
+- A written paragraph should include:
+    - Title of the visualization (what am I looking at)
+    - What are questions that you want to explore with this visualization?
+    - Why are you creating an interactive/narrative version of it?
+    - What will narrativity and interactivity add to this project that was not possible in static form?
+    - Which dataset is used? 
+    - What are the properties of the data set? How many data points, what's the quality of the data etc?
+    - Which visualization method is used and why?
+
+
+Title: Ethnicities and Culture at the Smithsonian
+
+Questions:  
+- How ethnicities and cultural history represented accross the collections? 
+- What types of items represent the ethnicity?
+
+Interactivity would help the user interact and focus their understanding of the diversity of the collection
+
+Data: Smithsonian data (entire)
+
+- I'll be expanding the project 1 data, to include different ethnicities (based on census groupings). 
+
+- Visualization include: pie chart, bubble chart, bar chart. This will hopefully provide the user with a comprehensive view of the collection's diversity.
+
+
+## Notes
+
+// FINALS Data model
+var dataModel = [{
+    topic: {
+        objectCount: 123,
+        topicObjects: [{
+            id: 'string',
+            title: 'string',
+            allTopics: ['string'],
+            year: 1920,
+            objectType: 'string',
+            objectIcon: 'path',
+            objectDescription: "string (notes key in data.json)",
+            displayStatus: true,
+        }, {
+            id: 'string',
+            title: 'string',
+            allTopics: ['string'],
+            year: 1920,
+            objectType: 'string',
+            objectIcon: 'path',
+            objectDescription: "string (notes key in data.json)",
+            displayStatus: false,
+        }]
+    }
+}];
