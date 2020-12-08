@@ -11,7 +11,7 @@ let color = d3.scaleLinear()
     .interpolate(d3.interpolateHcl);
 
 let pack = d3.pack()
-    .size([diameter - margin, diameter - margin])
+    .size([(diameter / 2) - margin, (diameter / 2) - margin])
     .padding(2);
 
 d3.json("prototype-data.json", (error, data) => {
@@ -106,3 +106,4 @@ d3.json("prototype-data.json", (error, data) => {
         });
     }
 });
+

@@ -10,10 +10,53 @@
 </head>
 
 <body>
-    <h1 style="font-family: Times, serif;">Afrian-American Cultural representation in America (NMAAHC)
-    </h1>
-</body>
 
-<svg width="960" height="960"></svg>
+    <div id="wrapper">
+        <div id="content">
+
+            <svg width="800" height="800"></svg>
+        </div>
+        <div id="sidebar">
+            <h1>Afrian-American Cultural Representation at the Smithsonian</h1>
+            <h2>Items organized by object type, topic, & status | NMAAHC</h2>
+            <p>
+                In this visualization, you'll view the distribution of items in the National Museum of Afrian-American
+                History and Culture. The representation is divided into tiers (from large to small):
+            </p>
+            <ul>
+                <li>1st tier = Entire collection</li>
+                <li>2nd tier = On display vs archived</li>
+                <li>3rd tier = Topics</li>
+                <li>4th tier = Object types</li>
+                <li>5th tier = Items</li>
+            </ul>
+            <p>
+                Circles can be clicked on to zoom in, and view item details.
+                <br><br>
+                This project is intended to help curators keep the larger picture in mind, as they manage the
+                collection. This is also intended for students and researchers alike to view, search, and analyse the
+                collection.
+            </p>
+            <hr>
+            <div style="width: 100%; overflow: hidden;">
+                <div style="width: 200px; float: left;">
+                    <h3>Legend</h3>
+                    <p>The size of each circle is scaled according to the number of elements within. The bigger the
+                        circle, the more elements within that tier.</p>
+                </div>
+                <div style="margin-left: 220px;">
+                    <h3>Tier breakdown</h3>
+                    <div id="legend"></div>
+                </div>
+            </div>
+        </div>
+        <div id="cleared"></div>
+    </div>
+
+</body>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script> -->
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="app.js"></script>
+
+</html>
