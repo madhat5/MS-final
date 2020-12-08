@@ -4,12 +4,22 @@
 
 - expand to include all ethnicities (census?)
 
-- add 
-    - on display vs storage
-    - drop down for specific collection?
+- "Imitation is the sincerest form of flattery" - OW
 
+
+## NEXT
+- prototype/base
+    - summary
+    - encoding
+        - arc names?
+        - legend
+    - fonts
+    - color scheme (object types)
+- data clean (ox)
+- click action on item to show description in side bar
+- item image in item circle
+- drop down for specific collection?
 - ? add keyword search, and highlight areas with contour highlight?
-
 
 
 ## proposal
@@ -42,6 +52,12 @@ Data: Smithsonian data (entire)
 
 - Visualization include: pie chart, bubble chart, bar chart. This will hopefully provide the user with a comprehensive view of the collection's diversity.
 
+## Goal
+- goal is dashboard for navigating/comparing 
+    - display vs archived
+    - topics
+    - object types
+
 
 ## Notes
 
@@ -70,3 +86,15 @@ var dataModel = [{
         }]
     }
 }];
+
+#### Links
+- http://nbremer.github.io/occupationscanvas/
+- https://bl.ocks.org/fdlk/076469462d00ba39960f854df9acda56
+- https://observablehq.com/@thejustincase/d3-zoomable-circle-packing-multicolored
+- http://bl.ocks.org/nbremer/db24422abdb20150a9dd
+- https://www.d3-graph-gallery.com/circularpacking.html
+- https://observablehq.com/@johnhaldeman/tutorial-on-d3-basics-and-circle-packing-heirarchical-bubb
+- https://www.visualcinnamon.com/2015/11/learnings-from-a-d3-js-addict-on-starting-with-canvas.html
+- https://www.visualcinnamon.com/2015/09/placing-text-on-arcs.html
+- https://observablehq.com/@d3/working-with-color
+- https://github.com/d3/d3-scale-chromatic/blob/master/README.md
